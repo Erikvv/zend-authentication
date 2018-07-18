@@ -245,8 +245,8 @@ class Authentication extends AbstractValidator
         }
 
         $code = self::GENERAL;
-        if (array_key_exists($result->getCode(), self::CODE_MAP)) {
-            $code = self::CODE_MAP[$result->getCode()];
+        if (array_key_exists($result->getCode(), static::CODE_MAP)) {
+            $code = static::CODE_MAP[$result->getCode()];
         }
         $this->error($code);
 
