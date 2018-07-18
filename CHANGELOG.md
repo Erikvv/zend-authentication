@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file, in reverse 
 
 ### Added
 
-- Nothing.
+- Allow users to add error codes for authentication failure reasons
 
 ### Changed
 
